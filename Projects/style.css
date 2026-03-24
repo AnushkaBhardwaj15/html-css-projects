@@ -1,0 +1,21 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin:0;
+}
+
+.div{
+    width:250px;
+    height:100px;
+    background-color:#A7C7E7;
+    color:black;
+    text-align: center;
+
+}
+
+.box{
+    padding:1px;
+    border-radius:5px;
+}
