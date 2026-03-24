@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Basic Form Project</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <div class="div">
-        <div class="box">
-    <h1>Rahul Bhardwaj</h1>
-    <h3>Government of India</h3>
-    </div>
+    <div class="container">
+        <h2>Contact Us🫶🏻</h2>
+        <form action="result.html" method="GET">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <select name="issue" required>
+                <option>Query</option>
+                <option>Feedback</option>
+                <option>Complain</option>
+                <option>Other</option>
+            </select>
+            <textarea placeholder="Your Message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
     </div>
 </body>
 </html>
